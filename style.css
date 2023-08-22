@@ -28,3 +28,23 @@ i{
         color: #007acc;
     }
 }
+
+div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pause{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+
+}
+
+#play{
+    display: inline-block;
+}
